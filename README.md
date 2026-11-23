@@ -2,7 +2,11 @@
 
 **Like Obsidian, without the weight.**
 
-<img src="assets/demo.gif" width="750" alt="Pumice demo">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/demo.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/demo.gif">
+  <img width="750" alt="Pumice demo" src="assets/demo.gif">
+</picture>
 
 Quick installation:
 ```sh
